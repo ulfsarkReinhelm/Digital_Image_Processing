@@ -1,4 +1,5 @@
-%[INFO]- expands dark intensities while compressing lighter ones
+%[INFO]- performs an logarithmic transformation on the input
+%      - expands dark intensities while compressing lighter ones
 %[INPUT]- an image array
 %[OUTPUT]- an image array
 function S = intTranLog(R)
